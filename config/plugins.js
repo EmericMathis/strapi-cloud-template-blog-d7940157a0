@@ -6,4 +6,11 @@ module.exports = {
             relations: true,
         },
     },
+    'webp-converter': {
+        enabled: true,
+        config: {
+            mimeTypes: undefined,
+            quality: 90,
+        },
+    },
 };
